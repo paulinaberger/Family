@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07120F9F5FAEA57959D9EA74 /* Pods_SwiftagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7076BE1C273C499407AE3BE2 /* Pods_SwiftagramTests.framework */; };
+		65067CEE1EC4E42D0070298B /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 65067CED1EC4E42D0070298B /* GoogleService-Info (1).plist */; };
+		65067CF01EC634E30070298B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65067CEF1EC634E30070298B /* RegisterViewController.swift */; };
 		65A355BA1EC37F3A00216264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A355B91EC37F3A00216264 /* AppDelegate.swift */; };
 		65A355BC1EC37F3A00216264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A355BB1EC37F3A00216264 /* ViewController.swift */; };
 		65A355BF1EC37F3A00216264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A355BD1EC37F3A00216264 /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 		65A355C41EC37F3A00216264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A355C21EC37F3A00216264 /* LaunchScreen.storyboard */; };
 		65A355CF1EC37F3B00216264 /* SwiftagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A355CE1EC37F3B00216264 /* SwiftagramTests.swift */; };
 		65A355DA1EC37F3B00216264 /* SwiftagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A355D91EC37F3B00216264 /* SwiftagramUITests.swift */; };
+		65A355E81EC3830700216264 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65A355E71EC3830700216264 /* GoogleService-Info.plist */; };
+		83127D64A3284C579022334A /* Pods_SwiftagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9984D277C6D2CBDB752B2210 /* Pods_SwiftagramUITests.framework */; };
+		CBE0197F4C05BCD1094EB2BC /* Pods_Swiftagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0FF60281CD3FBFC30400A0 /* Pods_Swiftagram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040B237FF2C6FDC8A4C376FA /* Pods-SwiftagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftagramUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftagramUITests/Pods-SwiftagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2184669402B0BE20CA6775AA /* Pods-Swiftagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiftagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swiftagram/Pods-Swiftagram.release.xcconfig"; sourceTree = "<group>"; };
+		32F587534AE7BEB30A21BE80 /* Pods-SwiftagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftagramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftagramUITests/Pods-SwiftagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F0FF60281CD3FBFC30400A0 /* Pods_Swiftagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swiftagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65067CED1EC4E42D0070298B /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		65067CEF1EC634E30070298B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		65A355B61EC37F3A00216264 /* Swiftagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A355B91EC37F3A00216264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65A355BB1EC37F3A00216264 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,12 @@
 		65A355D51EC37F3B00216264 /* SwiftagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A355D91EC37F3B00216264 /* SwiftagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftagramUITests.swift; sourceTree = "<group>"; };
 		65A355DB1EC37F3B00216264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65A355E71EC3830700216264 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7076BE1C273C499407AE3BE2 /* Pods_SwiftagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9B932C611E017C351389A4 /* Pods-SwiftagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftagramTests/Pods-SwiftagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A649A4564D13E522C02C889 /* Pods-Swiftagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiftagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swiftagram/Pods-Swiftagram.debug.xcconfig"; sourceTree = "<group>"; };
+		9984D277C6D2CBDB752B2210 /* Pods_SwiftagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C392114BD2F8B0DF23CCDC /* Pods-SwiftagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftagramTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftagramTests/Pods-SwiftagramTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE0197F4C05BCD1094EB2BC /* Pods_Swiftagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07120F9F5FAEA57959D9EA74 /* Pods_SwiftagramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83127D64A3284C579022334A /* Pods_SwiftagramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +102,11 @@
 				65A355CD1EC37F3B00216264 /* SwiftagramTests */,
 				65A355D81EC37F3B00216264 /* SwiftagramUITests */,
 				65A355B71EC37F3A00216264 /* Products */,
+				7056E20066CA0D097DC7A5BE /* Pods */,
+				769A55ACB3F51B5F6C3D5653 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			wrapsLines = 0;
 		};
 		65A355B71EC37F3A00216264 /* Products */ = {
 			isa = PBXGroup;
@@ -97,12 +121,15 @@
 		65A355B81EC37F3A00216264 /* Swiftagram */ = {
 			isa = PBXGroup;
 			children = (
+				65067CED1EC4E42D0070298B /* GoogleService-Info (1).plist */,
 				65A355B91EC37F3A00216264 /* AppDelegate.swift */,
 				65A355BB1EC37F3A00216264 /* ViewController.swift */,
+				65067CEF1EC634E30070298B /* RegisterViewController.swift */,
 				65A355BD1EC37F3A00216264 /* Main.storyboard */,
 				65A355C01EC37F3A00216264 /* Assets.xcassets */,
 				65A355C21EC37F3A00216264 /* LaunchScreen.storyboard */,
 				65A355C51EC37F3A00216264 /* Info.plist */,
+				65A355E71EC3830700216264 /* GoogleService-Info.plist */,
 			);
 			path = Swiftagram;
 			sourceTree = "<group>";
@@ -125,6 +152,29 @@
 			path = SwiftagramUITests;
 			sourceTree = "<group>";
 		};
+		7056E20066CA0D097DC7A5BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A649A4564D13E522C02C889 /* Pods-Swiftagram.debug.xcconfig */,
+				2184669402B0BE20CA6775AA /* Pods-Swiftagram.release.xcconfig */,
+				7A9B932C611E017C351389A4 /* Pods-SwiftagramTests.debug.xcconfig */,
+				F4C392114BD2F8B0DF23CCDC /* Pods-SwiftagramTests.release.xcconfig */,
+				32F587534AE7BEB30A21BE80 /* Pods-SwiftagramUITests.debug.xcconfig */,
+				040B237FF2C6FDC8A4C376FA /* Pods-SwiftagramUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		769A55ACB3F51B5F6C3D5653 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F0FF60281CD3FBFC30400A0 /* Pods_Swiftagram.framework */,
+				7076BE1C273C499407AE3BE2 /* Pods_SwiftagramTests.framework */,
+				9984D277C6D2CBDB752B2210 /* Pods_SwiftagramUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65A355DE1EC37F3B00216264 /* Build configuration list for PBXNativeTarget "Swiftagram" */;
 			buildPhases = (
+				8151EEF8F1A675E997BC9F4D /* [CP] Check Pods Manifest.lock */,
 				65A355B21EC37F3A00216264 /* Sources */,
 				65A355B31EC37F3A00216264 /* Frameworks */,
 				65A355B41EC37F3A00216264 /* Resources */,
+				5FBD83097C908E033EDA58F3 /* [CP] Embed Pods Frameworks */,
+				FB4F5936F350EFE9E00A4335 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65A355E11EC37F3B00216264 /* Build configuration list for PBXNativeTarget "SwiftagramTests" */;
 			buildPhases = (
+				73009FF10461E3FE4B152565 /* [CP] Check Pods Manifest.lock */,
 				65A355C61EC37F3B00216264 /* Sources */,
 				65A355C71EC37F3B00216264 /* Frameworks */,
 				65A355C81EC37F3B00216264 /* Resources */,
+				9171451D95A030114F7790B1 /* [CP] Embed Pods Frameworks */,
+				D4FD8DE62415049430375A99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65A355E41EC37F3B00216264 /* Build configuration list for PBXNativeTarget "SwiftagramUITests" */;
 			buildPhases = (
+				DBDFF7CA4A4A20A0EB899CF2 /* [CP] Check Pods Manifest.lock */,
 				65A355D11EC37F3B00216264 /* Sources */,
 				65A355D21EC37F3B00216264 /* Frameworks */,
 				65A355D31EC37F3B00216264 /* Resources */,
+				D672C07CB1600229678B85BA /* [CP] Embed Pods Frameworks */,
+				E619B518AB3FB1A9F2CE2A4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				65A355C41EC37F3A00216264 /* LaunchScreen.storyboard in Resources */,
+				65A355E81EC3830700216264 /* GoogleService-Info.plist in Resources */,
+				65067CEE1EC4E42D0070298B /* GoogleService-Info (1).plist in Resources */,
 				65A355C11EC37F3A00216264 /* Assets.xcassets in Resources */,
 				65A355BF1EC37F3A00216264 /* Main.storyboard in Resources */,
 			);
@@ -254,11 +315,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FBD83097C908E033EDA58F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swiftagram/Pods-Swiftagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73009FF10461E3FE4B152565 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8151EEF8F1A675E997BC9F4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9171451D95A030114F7790B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftagramTests/Pods-SwiftagramTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4FD8DE62415049430375A99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftagramTests/Pods-SwiftagramTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D672C07CB1600229678B85BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftagramUITests/Pods-SwiftagramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBDFF7CA4A4A20A0EB899CF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E619B518AB3FB1A9F2CE2A4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftagramUITests/Pods-SwiftagramUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB4F5936F350EFE9E00A4335 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swiftagram/Pods-Swiftagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65A355B21EC37F3A00216264 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65067CF01EC634E30070298B /* RegisterViewController.swift in Sources */,
 				65A355BC1EC37F3A00216264 /* ViewController.swift in Sources */,
 				65A355BA1EC37F3A00216264 /* AppDelegate.swift in Sources */,
 			);
@@ -412,6 +612,7 @@
 		};
 		65A355DF1EC37F3B00216264 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A649A4564D13E522C02C889 /* Pods-Swiftagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swiftagram/Info.plist;
@@ -424,6 +625,7 @@
 		};
 		65A355E01EC37F3B00216264 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2184669402B0BE20CA6775AA /* Pods-Swiftagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swiftagram/Info.plist;
@@ -436,6 +638,7 @@
 		};
 		65A355E21EC37F3B00216264 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A9B932C611E017C351389A4 /* Pods-SwiftagramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +653,7 @@
 		};
 		65A355E31EC37F3B00216264 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C392114BD2F8B0DF23CCDC /* Pods-SwiftagramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +668,7 @@
 		};
 		65A355E51EC37F3B00216264 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32F587534AE7BEB30A21BE80 /* Pods-SwiftagramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SwiftagramUITests/Info.plist;
@@ -477,6 +682,7 @@
 		};
 		65A355E61EC37F3B00216264 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040B237FF2C6FDC8A4C376FA /* Pods-SwiftagramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SwiftagramUITests/Info.plist;
@@ -507,6 +713,7 @@
 				65A355E01EC37F3B00216264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65A355E11EC37F3B00216264 /* Build configuration list for PBXNativeTarget "SwiftagramTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +722,7 @@
 				65A355E31EC37F3B00216264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65A355E41EC37F3B00216264 /* Build configuration list for PBXNativeTarget "SwiftagramUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +731,7 @@
 				65A355E61EC37F3B00216264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
