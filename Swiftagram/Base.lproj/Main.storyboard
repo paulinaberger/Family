@@ -91,7 +91,7 @@
             </objects>
             <point key="canvasLocation" x="31.875" y="83.450704225352112"/>
         </scene>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="W8l-NL-I2h">
             <objects>
                 <viewController storyboardIdentifier="usersVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="LmT-t2-haB" sceneMemberID="viewController">
@@ -104,10 +104,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.88932099948418508" green="0.91310146929789404" blue="0.94045498704663211" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="FIa-bb-6jy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yhf-XF-NYn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1425" y="83"/>
+            <point key="canvasLocation" x="2214" y="-43"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="jVo-iw-LD3">
@@ -125,13 +126,13 @@
                                 <rect key="frame" x="16" y="84" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xhg-my-Uuk">
                                 <rect key="frame" x="16" y="44" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AOP-fG-fFT">
                                 <rect key="frame" x="16" y="170" width="343" height="30"/>
@@ -215,6 +216,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zXC-C5-DX3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="738.39999999999998" y="82.3088455772114"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="GUW-9P-5TP">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="XWj-5e-Gp7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="lcc-qp-Mze">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="LmT-t2-haB" kind="relationship" relationship="viewControllers" id="LAZ-zM-Qm9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M7C-x5-zrs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1426" y="83"/>
         </scene>
     </scenes>
 </document>
