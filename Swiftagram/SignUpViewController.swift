@@ -62,6 +62,7 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
     }
     
     
+    
     @IBAction func signUpNextPressed(_ sender: Any) {
         
         guard FullName.text != "", userEmail.text != "", password.text != "", confirmPassword.text != "" else {return}
@@ -71,9 +72,7 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
             FIRAuth.auth()?.createUser(withEmail: userEmail.text!, password: password.text!, completion: { (user, error) in
                 if let error = error {
                     print(error.localizedDescription)
-                }
-                
-                if let user = user {
+                } else if let user = user {
                     
                     let changeRequest = FIRAuth.auth()!.currentUser!.profileChangeRequest()
                     changeRequest.displayName = self.FullName.text!
@@ -96,9 +95,10 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
                             }
                             
                             if let url = url {
-                                let userInfo: [String : Any] = ["uid" : user.uid,"Full Name" : self.FullName.text,"urlImage" : url.absoluteString]
+                                
+                                let userInfo: [String : Any] = ["uid" : user.uid,"Full Name": self.FullName.text,"urltoImage" : url.absoluteString]
                                 self.ref.child("users").child(user.uid).setValue(userInfo)
-                                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "usersVC")                                 
+                                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "usersVC")
                                 self.present(vc, animated: true, completion: nil)
                             }
                         })
@@ -108,8 +108,9 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
                 }
             })
             
-            }else{
-                
+        } else {
+            print("Password does not match")
+
         }
     }
 }
