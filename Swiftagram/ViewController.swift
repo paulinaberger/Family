@@ -33,16 +33,14 @@ class ViewController: UIViewController {
         let username = usernameTextField.text
         let password = passwordTextField.text
         
-        FIRAuth.auth()?.signIn(withEmail: username!, password: password!, completion: { (user, error) in
+        FIRAuth.auth()?.signIn(withEmail: username!, password: password!) { (user, error) in
             if error != nil {
                 // error loggin in user
                 
                 let alert = UIAlertController(title: "error", message: "Wrong password", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                 
-                
-                self.present(alert, animated: true,
-                             completion: nil)
+                self.present(alert, animated: true, completion: nil)
            
             }else {
                 //success
@@ -51,7 +49,7 @@ class ViewController: UIViewController {
                 
                 self.present(alert, animated: true, completion: nil)
             }
-        })
+        }
     }
 }
 

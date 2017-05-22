@@ -12,6 +12,11 @@
 		6503C40D1ECF06FA00A308D5 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6503C40C1ECF06FA00A308D5 /* UserCell.swift */; };
 		6503C4181ED18A8F00A308D5 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6503C4171ED18A8F00A308D5 /* UsersViewController.swift */; };
 		6503C41A1ED18E3F00A308D5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6503C4191ED18E3F00A308D5 /* User.swift */; };
+		6503C4781ED2D73800A308D5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6503C4771ED2D73800A308D5 /* MobileCoreServices.framework */; };
+		6503C47A1ED2D74100A308D5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6503C4791ED2D74100A308D5 /* libz.tbd */; };
+		6503C47C1ED2D74A00A308D5 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6503C47B1ED2D74A00A308D5 /* libc++.tbd */; };
+		6503C47E1ED2D75700A308D5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6503C47D1ED2D75700A308D5 /* libsqlite3.tbd */; };
+		6503C4801ED2D76200A308D5 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6503C47F1ED2D76200A308D5 /* libicucore.tbd */; };
 		65067CEE1EC4E42D0070298B /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 65067CED1EC4E42D0070298B /* GoogleService-Info (1).plist */; };
 		6543A62D1ECA1CB200F62688 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6543A62C1ECA1CB200F62688 /* SignUpViewController.swift */; };
 		65A355BA1EC37F3A00216264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A355B91EC37F3A00216264 /* AppDelegate.swift */; };
@@ -52,6 +57,11 @@
 		6503C40C1ECF06FA00A308D5 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		6503C4171ED18A8F00A308D5 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		6503C4191ED18E3F00A308D5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6503C4771ED2D73800A308D5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6503C4791ED2D74100A308D5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6503C47B1ED2D74A00A308D5 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		6503C47D1ED2D75700A308D5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6503C47F1ED2D76200A308D5 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		65067CED1EC4E42D0070298B /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		6543A62C1ECA1CB200F62688 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		65A355B61EC37F3A00216264 /* Swiftagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +90,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6503C4801ED2D76200A308D5 /* libicucore.tbd in Frameworks */,
+				6503C47E1ED2D75700A308D5 /* libsqlite3.tbd in Frameworks */,
+				6503C47C1ED2D74A00A308D5 /* libc++.tbd in Frameworks */,
+				6503C47A1ED2D74100A308D5 /* libz.tbd in Frameworks */,
+				6503C4781ED2D73800A308D5 /* MobileCoreServices.framework in Frameworks */,
 				CBE0197F4C05BCD1094EB2BC /* Pods_Swiftagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +219,11 @@
 		769A55ACB3F51B5F6C3D5653 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6503C47F1ED2D76200A308D5 /* libicucore.tbd */,
+				6503C47D1ED2D75700A308D5 /* libsqlite3.tbd */,
+				6503C47B1ED2D74A00A308D5 /* libc++.tbd */,
+				6503C4791ED2D74100A308D5 /* libz.tbd */,
+				6503C4771ED2D73800A308D5 /* MobileCoreServices.framework */,
 				3F0FF60281CD3FBFC30400A0 /* Pods_Swiftagram.framework */,
 				7076BE1C273C499407AE3BE2 /* Pods_SwiftagramTests.framework */,
 				9984D277C6D2CBDB752B2210 /* Pods_SwiftagramUITests.framework */,
@@ -288,6 +308,7 @@
 				TargetAttributes = {
 					65A355B51EC37F3A00216264 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5L9XP2PZ59;
 						ProvisioningStyle = Automatic;
 					};
 					65A355C91EC37F3B00216264 = {
@@ -655,6 +676,7 @@
 			baseConfigurationReference = 8A649A4564D13E522C02C889 /* Pods-Swiftagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5L9XP2PZ59;
 				INFOPLIST_FILE = Swiftagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Berger.Swiftagram;
@@ -668,6 +690,7 @@
 			baseConfigurationReference = 2184669402B0BE20CA6775AA /* Pods-Swiftagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5L9XP2PZ59;
 				INFOPLIST_FILE = Swiftagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Berger.Swiftagram;

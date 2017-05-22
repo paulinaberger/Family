@@ -105,7 +105,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eeu-LY-P1J">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
-                                <color key="backgroundColor" red="0.67595498528153497" green="0.79442429697568151" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.92350717111787439" green="0.98045612533154247" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="Phj-dD-2r7"/>
                                 </constraints>
@@ -151,14 +151,15 @@
                             </tableView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="usc-MM-s2P">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <color key="backgroundColor" red="0.67390698194503784" green="0.79547035694122314" blue="0.99104410409927368" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.92331141233444214" green="0.98190015554428101" blue="0.9970511794090271" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="TUI-2s-AEu"/>
                                 </constraints>
+                                <color key="tintColor" red="0.92331141230000002" green="0.98190015549999998" blue="0.99705117939999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <navigationItem title="Users" id="8w7-U5-i8z">
                                         <barButtonItem key="leftBarButtonItem" title="Log out" id="T8n-OI-OUK">
-                                            <color key="tintColor" red="0.57380497614388715" green="0.60691275680355095" blue="0.60729031735751293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="tintColor" red="0.47142792778930526" green="0.49828985977786089" blue="0.50331930051813467" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <connections>
                                                 <action selector="logOutPressed:" destination="LmT-t2-haB" id="7Dc-Dx-6bU"/>
                                                 <segue destination="BYZ-38-t0r" kind="show" id="nts-1y-13m"/>
