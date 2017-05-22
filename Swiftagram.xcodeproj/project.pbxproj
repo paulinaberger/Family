@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		07120F9F5FAEA57959D9EA74 /* Pods_SwiftagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7076BE1C273C499407AE3BE2 /* Pods_SwiftagramTests.framework */; };
 		6503C3D11ECCC30A00A308D5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6503C3D01ECCC30A00A308D5 /* LoginViewController.swift */; };
+		6503C40D1ECF06FA00A308D5 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6503C40C1ECF06FA00A308D5 /* UserCell.swift */; };
+		6503C4181ED18A8F00A308D5 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6503C4171ED18A8F00A308D5 /* UsersViewController.swift */; };
+		6503C41A1ED18E3F00A308D5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6503C4191ED18E3F00A308D5 /* User.swift */; };
 		65067CEE1EC4E42D0070298B /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 65067CED1EC4E42D0070298B /* GoogleService-Info (1).plist */; };
 		6543A62D1ECA1CB200F62688 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6543A62C1ECA1CB200F62688 /* SignUpViewController.swift */; };
 		65A355BA1EC37F3A00216264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A355B91EC37F3A00216264 /* AppDelegate.swift */; };
@@ -46,6 +49,9 @@
 		32F587534AE7BEB30A21BE80 /* Pods-SwiftagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftagramUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftagramUITests/Pods-SwiftagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F0FF60281CD3FBFC30400A0 /* Pods_Swiftagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swiftagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6503C3D01ECCC30A00A308D5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6503C40C1ECF06FA00A308D5 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		6503C4171ED18A8F00A308D5 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		6503C4191ED18E3F00A308D5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		65067CED1EC4E42D0070298B /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		6543A62C1ECA1CB200F62688 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		65A355B61EC37F3A00216264 /* Swiftagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +103,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6503C4121ED0D62F00A308D5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6543A62C1ECA1CB200F62688 /* SignUpViewController.swift */,
+				6503C3D01ECCC30A00A308D5 /* LoginViewController.swift */,
+				6503C4171ED18A8F00A308D5 /* UsersViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6503C4131ED0D67500A308D5 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6503C40C1ECF06FA00A308D5 /* UserCell.swift */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		6503C4141ED0D68400A308D5 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				6503C4191ED18E3F00A308D5 /* User.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
 		65A355AD1EC37F3A00216264 = {
 			isa = PBXGroup;
 			children = (
@@ -123,16 +155,17 @@
 		65A355B81EC37F3A00216264 /* Swiftagram */ = {
 			isa = PBXGroup;
 			children = (
+				6503C4141ED0D68400A308D5 /* Objects */,
+				6503C4131ED0D67500A308D5 /* Custom Cell */,
+				6503C4121ED0D62F00A308D5 /* ViewControllers */,
 				65067CED1EC4E42D0070298B /* GoogleService-Info (1).plist */,
 				65A355B91EC37F3A00216264 /* AppDelegate.swift */,
 				65A355BB1EC37F3A00216264 /* ViewController.swift */,
 				65A355BD1EC37F3A00216264 /* Main.storyboard */,
-				6543A62C1ECA1CB200F62688 /* SignUpViewController.swift */,
 				65A355C01EC37F3A00216264 /* Assets.xcassets */,
 				65A355C21EC37F3A00216264 /* LaunchScreen.storyboard */,
 				65A355C51EC37F3A00216264 /* Info.plist */,
 				65A355E71EC3830700216264 /* GoogleService-Info.plist */,
-				6503C3D01ECCC30A00A308D5 /* LoginViewController.swift */,
 			);
 			path = Swiftagram;
 			sourceTree = "<group>";
@@ -464,7 +497,10 @@
 				6503C3D11ECCC30A00A308D5 /* LoginViewController.swift in Sources */,
 				65A355BC1EC37F3A00216264 /* ViewController.swift in Sources */,
 				6543A62D1ECA1CB200F62688 /* SignUpViewController.swift in Sources */,
+				6503C4181ED18A8F00A308D5 /* UsersViewController.swift in Sources */,
+				6503C40D1ECF06FA00A308D5 /* UserCell.swift in Sources */,
 				65A355BA1EC37F3A00216264 /* AppDelegate.swift in Sources */,
+				6503C41A1ED18E3F00A308D5 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

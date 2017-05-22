@@ -39,8 +39,9 @@ class LoginViewController: UIViewController {
                 print(error.localizedDescription)
             }
             
-            if let user = user {
-                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "usersVC")
+            if let user = user  {
+                let vc = UIStoryboard(name: "Main",
+                                      bundle: nil).instantiateViewController(withIdentifier: "usersVC")
                 
                 self.present(vc, animated: true, completion: nil)
             }
