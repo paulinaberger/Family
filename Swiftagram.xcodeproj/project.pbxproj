@@ -27,6 +27,7 @@
 		65A355CF1EC37F3B00216264 /* SwiftagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A355CE1EC37F3B00216264 /* SwiftagramTests.swift */; };
 		65A355DA1EC37F3B00216264 /* SwiftagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A355D91EC37F3B00216264 /* SwiftagramUITests.swift */; };
 		65A355E81EC3830700216264 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65A355E71EC3830700216264 /* GoogleService-Info.plist */; };
+		65AFDF961ED3797F00362F72 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AFDF951ED3797F00362F72 /* UploadViewController.swift */; };
 		83127D64A3284C579022334A /* Pods_SwiftagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9984D277C6D2CBDB752B2210 /* Pods_SwiftagramUITests.framework */; };
 		CBE0197F4C05BCD1094EB2BC /* Pods_Swiftagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0FF60281CD3FBFC30400A0 /* Pods_Swiftagram.framework */; };
 /* End PBXBuildFile section */
@@ -78,6 +79,7 @@
 		65A355D91EC37F3B00216264 /* SwiftagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftagramUITests.swift; sourceTree = "<group>"; };
 		65A355DB1EC37F3B00216264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65A355E71EC3830700216264 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		65AFDF951ED3797F00362F72 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		7076BE1C273C499407AE3BE2 /* Pods_SwiftagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9B932C611E017C351389A4 /* Pods-SwiftagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftagramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftagramTests/Pods-SwiftagramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8A649A4564D13E522C02C889 /* Pods-Swiftagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiftagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swiftagram/Pods-Swiftagram.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				6543A62C1ECA1CB200F62688 /* SignUpViewController.swift */,
 				6503C3D01ECCC30A00A308D5 /* LoginViewController.swift */,
 				6503C4171ED18A8F00A308D5 /* UsersViewController.swift */,
+				65AFDF951ED3797F00362F72 /* UploadViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -516,6 +519,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6503C3D11ECCC30A00A308D5 /* LoginViewController.swift in Sources */,
+				65AFDF961ED3797F00362F72 /* UploadViewController.swift in Sources */,
 				65A355BC1EC37F3A00216264 /* ViewController.swift in Sources */,
 				6543A62D1ECA1CB200F62688 /* SignUpViewController.swift in Sources */,
 				6503C4181ED18A8F00A308D5 /* UsersViewController.swift in Sources */,
