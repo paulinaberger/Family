@@ -14,6 +14,7 @@ import FirebaseDatabase
 class UsersViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
+    
     var user = [User]()
     
     
@@ -109,6 +110,7 @@ class UsersViewController: UIViewController, UITableViewDelegate, UITableViewDat
                 
                 ref.child("users").child(uid).updateChildValues(following)
                 ref.child("users").child(self.user[indexPath.row].userID).updateChildValues(followers)
+                print("selected user" + (key  ?? "unknown"))
                 
                 self.tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark            }
         })
@@ -135,6 +137,8 @@ class UsersViewController: UIViewController, UITableViewDelegate, UITableViewDat
         ref.removeAllObservers()
         
     }
+    
+    
 
     @IBAction func logOutPressed(_ sender: Any) {
     }
