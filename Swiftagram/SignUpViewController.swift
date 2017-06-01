@@ -63,9 +63,7 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         
-        picker.dismiss(animated: true)
-        
-        if let image = info[UIImagePickerControllerEditedImage] as? UIImage{
+        if let image = info[UIImagePickerControllerOriginalImage] as? UIImage{
             self.imageView.image = image
             
             //want to unhide the Sign me UP! button
@@ -94,7 +92,7 @@ class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     
     
-    func signUpNextPressed(_ sender: Any) {
+    @IBAction func signUpNextPressed(_ sender: Any) {
         
         guard FullName.text != "", userEmail.text != "", password.text != "", confirmPassword.text != "" else {return}
         
