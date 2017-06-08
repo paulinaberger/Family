@@ -11,7 +11,7 @@ import Firebase
 import FirebaseStorage
 
 
-class SignUpViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+class SignUpViewController: BaseViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
 
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var FullName: UITextField!

@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 
 
-class FeedViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class FeedViewController: BaseViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     
     @IBOutlet weak var collectionView: UICollectionView!

@@ -37,7 +37,7 @@ class ViewController: UIViewController {
             if error != nil {
                 // error loggin in user
                 
-                let alert = UIAlertController(title: "error", message: "Wrong password", preferredStyle: .alert)
+                let alert = UIAlertController(title: NSLocalizedString("error", comment: ""), message: "Wrong password", preferredStyle: .alert)
                 alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                 
                 self.present(alert, animated: true, completion: nil)

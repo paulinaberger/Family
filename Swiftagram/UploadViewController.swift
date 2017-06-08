@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 import FirebaseStorage
 
-class UploadViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+class UploadViewController: BaseViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     
     @IBAction func backButton(_ sender: UIBarButtonItem) {
     }
@@ -78,7 +78,7 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
 
     
     @IBAction func postPressed(_ sender: Any) {
-        AppDelegate.instance().showActivityIndicator()
+        showActivityIndicator()
         
         let uid = FIRAuth.auth()!.currentUser!.uid
         let ref = FIRDatabase.database().reference()
@@ -93,7 +93,7 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
             
             if error != nil {
                 print(error!.localizedDescription)
-                AppDelegate.instance().dismissActivityIndicator()
+                self.dismissActivityIndicator()
                 return
             }
             
@@ -110,7 +110,7 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate, U
                     
                     ref.child("posts").updateChildValues(postFeed)
                     
-                    AppDelegate.instance().dismissActivityIndicator()
+                    self.dismissActivityIndicator()
                     
                     self.dismiss(animated: true, completion: nil)
                  }
