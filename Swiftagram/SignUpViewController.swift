@@ -31,6 +31,11 @@ class SignUpViewController: BaseViewController, UIImagePickerControllerDelegate,
         
         picker.delegate = self
         
+        imageView.layer.masksToBounds = false
+        imageView.layer.cornerRadius = imageView.frame.height/4
+        imageView.clipsToBounds = true
+
+
         let storage = FIRStorage.storage().reference(forURL: "gs://swiftagram-62eb3.appspot.com")
     
         ref = FIRDatabase.database().reference()
@@ -39,6 +44,7 @@ class SignUpViewController: BaseViewController, UIImagePickerControllerDelegate,
     }
     
  
+    
 
     @IBAction func selectImagePressed(_ sender: Any) {
         
