@@ -56,7 +56,10 @@ class LoginViewController: BaseViewController, FBSDKLoginButtonDelegate {
                     
                 }
                 else {
-                    self.performSegue(withIdentifier: "RegisterToMain", sender: nil)
+                    let vc = UIStoryboard(name: "Main",
+                                          bundle: nil).instantiateViewController(withIdentifier: "usersVC")
+                    
+                    self.present(vc, animated: true, completion: nil)
                 }
             })
         }
