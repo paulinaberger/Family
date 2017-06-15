@@ -18,6 +18,7 @@ class SignUpViewController: BaseViewController, UIImagePickerControllerDelegate,
     @IBOutlet weak var userEmail: UITextField!
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var confirmPassword: UITextField!
+ 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var signUpNext: UIButton!
     
@@ -31,9 +32,8 @@ class SignUpViewController: BaseViewController, UIImagePickerControllerDelegate,
         
         picker.delegate = self
         
-        imageView.layer.masksToBounds = false
-        imageView.layer.cornerRadius = imageView.frame.height/4
-        imageView.clipsToBounds = true
+        imageView.layer.cornerRadius = imageView.frame.size.width/2
+         imageView.clipsToBounds = true
 
 
         let storage = FIRStorage.storage().reference(forURL: "gs://swiftagram-62eb3.appspot.com")

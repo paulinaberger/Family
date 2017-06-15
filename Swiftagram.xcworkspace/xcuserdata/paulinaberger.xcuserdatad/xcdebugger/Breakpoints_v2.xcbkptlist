@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swiftagram/ViewController.swift"
-            timestampString = "516219702.379243"
+            timestampString = "519209474.736513"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "signinTapped(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swiftagram/ViewController.swift"
-            timestampString = "516219702.379243"
+            timestampString = "519209474.736513"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "ViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swiftagram/ViewController.swift"
-            timestampString = "516219513.412909"
+            timestampString = "519209474.736513"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59">
+            startingLineNumber = "61"
+            endingLineNumber = "61">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -56,11 +56,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swiftagram/ViewController.swift"
-            timestampString = "516219544.979445"
+            timestampString = "519209474.736513"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "ViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -134,7 +134,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swiftagram/SignUpViewController.swift"
-            timestampString = "518983506.657622"
+            timestampString = "519162273.835425"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
@@ -150,7 +150,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swiftagram/SignUpViewController.swift"
-            timestampString = "518983506.657622"
+            timestampString = "519162273.835425"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "105"
@@ -171,6 +171,7 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
+                  moduleName = "Swiftagram"
                   usesParentBreakpointCondition = "Yes"
                   offsetFromSymbolStart = "0">
                </Location>
@@ -184,7 +185,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swiftagram/SignUpViewController.swift"
-            timestampString = "518983506.657622"
+            timestampString = "519162273.835425"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "104"
@@ -200,7 +201,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swiftagram/SignUpViewController.swift"
-            timestampString = "518983506.657622"
+            timestampString = "519162273.835425"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "93"
@@ -248,7 +249,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swiftagram/SignUpViewController.swift"
-            timestampString = "518983506.657622"
+            timestampString = "519162273.835425"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "119"
@@ -264,7 +265,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swiftagram/SignUpViewController.swift"
-            timestampString = "518983506.657622"
+            timestampString = "519162273.835425"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "106"
@@ -332,9 +333,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "147"
-            endingLineNumber = "147"
-            landmarkName = "UIImageView"
-            landmarkType = "4">
+            endingLineNumber = "147">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -365,8 +364,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
             endingLineNumber = "63"
-            landmarkName = "numberOfSections(in:)"
-            landmarkType = "7">
+            landmarkName = "UsersViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -376,7 +375,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swiftagram/SignUpViewController.swift"
-            timestampString = "518983506.657622"
+            timestampString = "519162273.835425"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "98"
@@ -618,6 +617,38 @@
             startingLineNumber = "88"
             endingLineNumber = "88"
             landmarkName = "postPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swiftagram/ViewController.swift"
+            timestampString = "519209007.371694"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Swiftagram/LoginViewController.swift"
+            timestampString = "519214120.081955"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "loginButton(_:didCompleteWith:error:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
