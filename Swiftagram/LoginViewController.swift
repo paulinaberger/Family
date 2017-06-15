@@ -10,8 +10,10 @@ import UIKit
 import UIKit
 import Firebase
 import FirebaseStorage
+import FBSDKLoginKit
+import FBSDKCoreKit
 
-class LoginViewController: BaseViewController {
+class LoginViewController: BaseViewController, FBSDKLoginButtonDelegate {
 
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
@@ -19,13 +21,57 @@ class LoginViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let loginButton = FBSDKLoginButton()
+        loginButton.center = view.center
+        view.addSubview(loginButton)
+        loginButton.delegate = self
+        
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    
+    func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
+        if  error != nil {
+            print("Facebook Error \(error)")
+            return
+        }
+        
+        print("isCancelled: \(result.isCancelled)")
+        print("declined permissions: \(result.declinedPermissions)")
+        print("granted permissions: \(result.grantedPermissions)")
+        
+        if !result.isCancelled{
+            let credential = FIRFacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
+            
+            
+            FIRAuth.auth()?.signIn(with: credential, completion: { (user, error) in
+                if let error = error {
+                    print("Firebase error: \(error)")
+                    
+                }
+                else {
+                    self.performSegue(withIdentifier: "RegisterToMain", sender: nil)
+                }
+            })
+        }
+    }
+    
+    func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
+        
+    }
+
+    func loginButtonWillLogin(_ loginButton: FBSDKLoginButton!) -> Bool {
+        print("here")
+        FBSDKAccessToken.setCurrent(nil)
+        return true
+    }
+    
     
 
     @IBAction func loginPressed(_ sender: Any) {

@@ -18,6 +18,7 @@ class SignUpViewController: BaseViewController, UIImagePickerControllerDelegate,
     @IBOutlet weak var userEmail: UITextField!
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var confirmPassword: UITextField!
+ 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var signUpNext: UIButton!
     
@@ -31,6 +32,10 @@ class SignUpViewController: BaseViewController, UIImagePickerControllerDelegate,
         
         picker.delegate = self
         
+        imageView.layer.cornerRadius = imageView.frame.size.width/2
+         imageView.clipsToBounds = true
+
+
         let storage = FIRStorage.storage().reference(forURL: "gs://swiftagram-62eb3.appspot.com")
     
         ref = FIRDatabase.database().reference()
@@ -39,6 +44,7 @@ class SignUpViewController: BaseViewController, UIImagePickerControllerDelegate,
     }
     
  
+    
 
     @IBAction func selectImagePressed(_ sender: Any) {
         

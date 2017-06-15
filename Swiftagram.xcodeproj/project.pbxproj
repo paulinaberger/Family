@@ -20,6 +20,9 @@
 		65067CEE1EC4E42D0070298B /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 65067CED1EC4E42D0070298B /* GoogleService-Info (1).plist */; };
 		652CA5921ED6155000C9E9AF /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652CA5911ED6155000C9E9AF /* Post.swift */; };
 		652CA5941ED615B900C9E9AF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652CA5931ED615B900C9E9AF /* FeedViewController.swift */; };
+		65301FB71EF27045009410D2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65301FB41EF27045009410D2 /* Bolts.framework */; };
+		65301FB81EF27045009410D2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65301FB51EF27045009410D2 /* FBSDKCoreKit.framework */; };
+		65301FB91EF27045009410D2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65301FB61EF27045009410D2 /* FBSDKLoginKit.framework */; };
 		6535D9E01ED7498200135C60 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6535D9DF1ED7498200135C60 /* PostCell.swift */; };
 		6543A62D1ECA1CB200F62688 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6543A62C1ECA1CB200F62688 /* SignUpViewController.swift */; };
 		65A355BA1EC37F3A00216264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A355B91EC37F3A00216264 /* AppDelegate.swift */; };
@@ -70,6 +73,9 @@
 		65067CED1EC4E42D0070298B /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		652CA5911ED6155000C9E9AF /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		652CA5931ED615B900C9E9AF /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		65301FB41EF27045009410D2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		65301FB51EF27045009410D2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		65301FB61EF27045009410D2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		6535D9DF1ED7498200135C60 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		6543A62C1ECA1CB200F62688 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		65A355B61EC37F3A00216264 /* Swiftagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,10 +108,13 @@
 			files = (
 				6503C4801ED2D76200A308D5 /* libicucore.tbd in Frameworks */,
 				6503C47E1ED2D75700A308D5 /* libsqlite3.tbd in Frameworks */,
+				65301FB91EF27045009410D2 /* FBSDKLoginKit.framework in Frameworks */,
 				6503C47C1ED2D74A00A308D5 /* libc++.tbd in Frameworks */,
 				6503C47A1ED2D74100A308D5 /* libz.tbd in Frameworks */,
 				CBE0197F4C05BCD1094EB2BC /* Pods_Swiftagram.framework in Frameworks */,
+				65301FB81EF27045009410D2 /* FBSDKCoreKit.framework in Frameworks */,
 				6503C4781ED2D73800A308D5 /* MobileCoreServices.framework in Frameworks */,
+				65301FB71EF27045009410D2 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +194,9 @@
 		65A355B81EC37F3A00216264 /* Swiftagram */ = {
 			isa = PBXGroup;
 			children = (
+				65301FB41EF27045009410D2 /* Bolts.framework */,
+				65301FB51EF27045009410D2 /* FBSDKCoreKit.framework */,
+				65301FB61EF27045009410D2 /* FBSDKLoginKit.framework */,
 				6503C4141ED0D68400A308D5 /* Objects */,
 				6503C4131ED0D67500A308D5 /* Custom Cell */,
 				6503C4121ED0D62F00A308D5 /* ViewControllers */,
@@ -323,7 +335,7 @@
 				TargetAttributes = {
 					65A355B51EC37F3A00216264 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = ZU25B33SN8;
+						DevelopmentTeam = 5L9XP2PZ59;
 						ProvisioningStyle = Automatic;
 					};
 					65A355C91EC37F3B00216264 = {
@@ -698,8 +710,12 @@
 			baseConfigurationReference = 8A649A4564D13E522C02C889 /* Pods-Swiftagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZU25B33SN8;
+				DEVELOPMENT_TEAM = 5L9XP2PZ59;
 				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swiftagram",
+				);
 				INFOPLIST_FILE = Swiftagram/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = Berger.Swiftagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -712,8 +728,12 @@
 			baseConfigurationReference = 2184669402B0BE20CA6775AA /* Pods-Swiftagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZU25B33SN8;
+				DEVELOPMENT_TEAM = 5L9XP2PZ59;
 				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swiftagram",
+				);
 				INFOPLIST_FILE = Swiftagram/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = Berger.Swiftagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
