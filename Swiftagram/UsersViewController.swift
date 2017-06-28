@@ -17,11 +17,11 @@ class UsersViewController: BaseViewController, UITableViewDelegate, UITableViewD
     
     var user = [User]()
     
-    
+
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+
         self.tableView.delegate = self
         self.tableView.dataSource = self
         

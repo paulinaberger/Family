@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 import FirebaseDatabase
 import FirebaseStorage
 import FirebaseAnalytics
@@ -16,6 +17,7 @@ import FirebaseAuth
 class RegisteredUserUIController: UIViewController {
     
     
+    @IBOutlet weak var logOutButton2: UIBarButtonItem!
     
     @IBOutlet weak var logOutButton: UIBarButtonItem!
     @IBOutlet weak var FullName: UILabel!
@@ -41,7 +43,19 @@ class RegisteredUserUIController: UIViewController {
     }
     
     @IBAction func logOutPressed(_ sender: Any) {
+        
+        if FIRAuth.auth()?.currentUser != nil{
+            do {
+                try FIRAuth.auth()?.signOut()
+                let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoginViewController")
+                present(vc, animated: true, completion: nil)
+            }catch let error as NSError {
+                print(error.localizedDescription)
+                
+            }
+        }
     }
+
     
   func loadUserInfo() {
     
