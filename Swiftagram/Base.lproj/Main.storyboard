@@ -770,7 +770,6 @@
                             <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="logOutPressed:" destination="XYc-CX-FzR" id="bwn-I8-o7a"/>
-                                <segue destination="BYZ-38-t0r" kind="show" id="mHW-Uu-4pv"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -817,7 +816,4 @@
         <image name="girl2" width="600" height="600"/>
         <image name="upload-photo" width="25" height="25"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="mHW-Uu-4pv"/>
-    </inferredMetricsTieBreakers>
 </document>
